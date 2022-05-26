@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conta  - WN GeekStore | Loja Virtual </title>
+    <link rel="shortcut icon" type="image/jpg" href="./images/favicon.png" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d652b9f554.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" width="125px" alt="Logo da loja">
+                </a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="conta.html">Conta</a></li>
+                </ul>
+            </nav>
+            <a href="carrinho.html">
+                <img src="img/carrinho.png" width="30px" height="30px">
+            </a>
+            <img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+
+
+    <!-------- Conta ------>
+
+    <div class="account-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="img/dath vader.png" width="80%">
+                </div>
+                <div class="col-2">
+                    <div class="form-container">
+                        <div class="form-btn">
+                            <span onclick="login()">Entrar</span>
+                            <span onclick="register()">Registrar</span>
+                            <hr id="Indicator">
+                        </div>
+
+                        <form id="LoginForm">
+                            <input type="text" placeholder="Nome de usuário">
+                            <input type="password" placeholder="Senha">
+                            <button type="submit" class="btn">Entrar</button>
+                            <a href="">esqueci minha senha</a>
+                        </form>
+
+                        <form id="RegForm">
+                            <input type="text" placeholder="Nome de usuário">
+                            <input type="email" placeholder="Email">
+                            <input type="password" placeholder="Senha">
+                            <button type="submit" class="btn">Registrar</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ <!-------- Footer ------>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Baixe nosso App</h3>
+                    <p>disponível para Android e iOS</p>
+                    <div class="app-logo">
+                        <img src="img/play-store.png">
+                        <img src="img/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">  
+                    <img src="img/logo amarelo.png">
+                    <p>Se você é um nerd assumido irá amar o nosso e-commerce, com certeza temos algo pra você! </p>
+                </div>
+                <div class="row">
+                    <div class="footer-col-3">
+                        <h3>Links Úteis</h3>
+                        <ul>
+                            <li>Cupons</li>
+                            <li>Blog</li>
+                            <li>Política de Reembolso</li>
+                            <li>Afiliados</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Redes Sociais</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>Youtube</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022 - WN GeekStore</p>
+        </div>
+
+</body>
+</html>
